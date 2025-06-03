@@ -262,7 +262,7 @@ width: 7rem;
     margin: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .head1 {
         flex-direction: column;
     }
@@ -337,5 +337,5 @@ width: 7rem;
             margin-left: 7rem;
     margin-top: 1rem;
     }
-    
+
 }

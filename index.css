@@ -337,5 +337,11 @@ width: 7rem;
             margin-left: 7rem;
     margin-top: 1rem;
     }
-
+    .add{
+                   width: 13rem;
+                   margin-left: 0;
+    }
+.right{
+    margin-top: 5rem;
+}
 }

@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgba(21, 22, 26, 1);
 }
 
 
@@ -61,7 +62,7 @@ width: 7rem;
 
 /*sec2*/
 .rec{
-     width: 40rem;
+    width: 54rem;
     height: 22rem;
     display: flex
 ;
@@ -76,13 +77,73 @@ width: 7rem;
     color: aliceblue;
     padding: 2rem;
 }
-.rec2{
-    padding: 3rem;
-        padding: 2rem;
+.sec2{
+
+          padding: 4rem;
     background-color: rgba(21, 22, 26, 1);
 }
 .txt{
         display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+
+.pfleche{
+        display: flex
+;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    opacity: 0.5;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: #4b4141;
+    box-shadow: black;
+    color: white;
+}
+.pfleche:hover{
+    box-shadow: #4b4141;
+}
+.rectangle1{
+       width: 321px;
+    height: 631px;
+    border-radius: 43px;
+    background-color: grey;
+    opacity: 0.4;
+    
+}
+.rectangle2{
+           width: 321px;
+        height: 631px;
+    border-radius: 43px;
+    background-color: grey;
+    opacity: 0.4;
+    position: absolute;
+    left: 12rem;
+    top: 65rem;
+}
+.leftt{
+    display: flex;
+}
+
+.sec3{
+    display: flex;
+        padding: 2rem;
+    gap: 17rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.h22{
+    font-weight: 600;
+    font-size: larger;
+}
+.sec3 .h22{
+        font-weight: 600;
+    font-size: -webkit-xxx-large;
+    color: aliceblue;
+}
+.topright{
+    display: flex;
 }

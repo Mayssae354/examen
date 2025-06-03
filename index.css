@@ -17,8 +17,7 @@ body{
 }
 .left{
      align-items: center;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     width: 3rem;
     height: 17rem;
@@ -212,4 +211,131 @@ width: 7rem;
     height: 37rem;
     border-radius: 25px;
     margin-top: -5rem;
+}
+
+.bzf{
+        width: 8rem;
+    height: 14rem;
+    background-color: grey;
+    border-radius: 25px;
+        opacity: 0.5;
+}
+.rects{
+        width: 7rem;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 21rem;
+    transform: rotate(-23deg);
+}
+.deux{
+    display: flex
+;
+    justify-content: space-between;
+    gap: 9.3rem;
+    margin-top: -10rem;
+}
+.trois{
+    display: flex
+;
+    justify-content: space-between;
+    gap: 9.3rem;
+    margin-top: -2.7rem;
+}
+
+.fin
+{
+    margin-top: -2.7rem;
+}
+.sec5{
+    color: aliceblue;
+}
+
+.top{
+    display: flex;
+    justify-self: end;
+        display: flex
+;
+    justify-self: end;
+    flex-direction: column;
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .head1 {
+        flex-direction: column;
+    }
+    .left{
+               flex-direction: initial;
+               gap: 5px;
+
+    }
+    .line
+    {
+        display: none;
+    }
+    .head1{
+        gap: 0;
+    }
+    .textright{
+    margin-top: 0;
+    }
+    .left{
+        height: 3rem;
+    width: 17rem;
+                  background-color: #1a1919;
+            align-items: center;
+            justify-content: center;
+    }
+    .project.p3{
+        justify-self: center;
+        align-items: center;
+                margin-top: 1rem;
+    }
+    .rec{
+        width: 17rem;
+    height: 10rem;
+    }
+    .rectangle1,.rectangle2{width: 178px;
+    height: 21rem;}
+    .sec3{
+        flex-direction: column;
+            gap: 7rem;
+    }
+    .rectt{
+            width: 25rem;
+    height: 16rem;
+    margin-top: 1rem;
+    }
+    .shadow{
+        width: 22rem;
+    height: 11rem;
+    }
+    .grey{
+            width: 23rem;
+    height: 18rem;
+    margin-left: -3rem;
+    }
+    .add{
+        margin-left: 34rem;
+    }
+    .sec5{    margin-left: 2rem;
+    width: 23rem;}
+    .bzf{
+            width: 4rem;
+    height: 7rem;
+    }
+    .trois{
+        gap: 4.3rem;
+    }
+    .deux{
+            gap: 4.3rem;
+            margin-top: -4rem;
+    }
+    .rects{
+            margin-left: 7rem;
+    margin-top: 1rem;
+    }
+    
 }

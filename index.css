@@ -299,6 +299,9 @@ width: 7rem;
     }
     .rectangle1,.rectangle2{width: 178px;
     height: 21rem;}
+    .rectangle2{
+            margin-top: 5rem;
+    }
     .sec3{
         flex-direction: column;
             gap: 7rem;
@@ -343,5 +346,8 @@ width: 7rem;
     }
 .right{
     margin-top: 5rem;
+}
+.sec4{
+    margin-left: 2rem;
 }
 }

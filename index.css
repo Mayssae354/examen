@@ -1,3 +1,7 @@
+
+*{
+    font-family: 'Inter', sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
@@ -262,6 +266,26 @@ width: 7rem;
     margin: 0;
 }
 
+.rectang{
+       width: 36rem;
+    height: 20rem;
+    border-radius: 15px;
+    background-color: grey;
+    opacity: 0.5;
+}
+.sec6{
+    color: white;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6 h1,p{
+    opacity: 0.5;
+        margin-left: 1rem;
+}
 @media screen and (max-width: 600px) {
     .head1 {
         flex-direction: column;
@@ -353,5 +377,9 @@ width: 7rem;
 }
 .grey{
         margin-top: -4rem;
+}
+.rectang{
+    width: 25rem;
+    height: 10rem;
 }
 }

@@ -294,8 +294,9 @@ width: 7rem;
                 margin-top: 1rem;
     }
     .rec{
-        width: 17rem;
+        
     height: 10rem;
+    width: 19rem;
     }
     .rectangle1,.rectangle2{width: 178px;
     height: 21rem;}
@@ -349,5 +350,8 @@ width: 7rem;
 }
 .sec4{
     margin-left: 2rem;
+}
+.grey{
+        margin-top: -4rem;
 }
 }
